@@ -28,6 +28,12 @@ body {
 	list-style-type: none;
 }
 
+.menu-page-spisok {
+    display: flex;
+
+    	list-style-type: none;
+}
+
 .page-header-logo {
 	display: block;
 	width: 44px;
@@ -91,6 +97,12 @@ body {
 	/*outline: 1px solid #fff;*/
 }
 
+.content-center-spisok {
+	max-width: 1140px;
+	width: 100%;
+	margin: 51px auto;
+}
+
 .page-header button:hover svg {
 	fill: blue;
 }
@@ -124,16 +136,153 @@ body {
 }
 
 
+.content-catalog {
+    width: 100%;
+    height: 148px;
+    margin-top: 0px;
+    background: #F1E4E6;
+    position: relative;
+    box-sizing: border-box;
+}
 .content {
     width: 100%;
     height: 764px;
     top: 0px;
     background: #F1E4E6;
     position: relative;
-    box-sizing: border-box;
 }
 
+.button-menu {
+    margin-left: 11px;
+right: 80.25%;
+top: 8.65%;
+bottom: 91.04%;
 
+}
+
+.trending-now {
+   
+    width: 112px;
+    height: 17px;
+    margin-left: 304px;
+    top: 274px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+   
+    
+}
+
+.choose-trending-now {
+    
+margin-left: 10px;
+right: 53%;
+top: 8.74%;
+bottom: 91.1%;
+
+
+}
+
+.filter {
+    width: 44px;
+    height: 17px;
+    margin-left: 0px;
+    padding-top: 51px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.size {
+    width: 29px;
+height: 17px;
+margin-left: 27.98px;
+top: 274px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+
+.choose-size {
+    margin-left: 10px;
+right: 48.19%;
+top: 8.74%;
+bottom: 91.1%;
+}
+
+.price {
+    width: 39px;
+height: 17px;
+margin-left: 10px;
+top: 274px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+
+.choose-price {
+    margin-left: 10px;
+right: 42.75%;
+top: 8.74%;
+bottom: 91.1%;
+}
+
+.new-arrivals {
+    position: absolute;
+left: 15.88%;
+
+top: 59px;
+bottom: 94.93%;
+text-decoration: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #F16D7F;
+width: 194px;
+height: 29px;
+}
+
+a:hover {
+    border-bottom: 1px solid blue;
+}
+
+.bread-crumbs {
+    position: absolute;
+    left: 73.0%;
+    
+    top: 65px;
+    bottom: 95.12%;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    width: 209px;
+height: 17px;
+    
+    color: #636363;
+    
+}
 
 .img_men {
     position: absolute;
@@ -141,11 +290,12 @@ body {
 }
 
 .modeli {
-    margin-top: 65px;
+    margin-top: 60px;
     margin-left: 266px;
     width: 1140px;
     height: 260px;
     list-style-type: none;
+    
 }
 
 .women {
@@ -154,8 +304,8 @@ body {
     top: 904px;
     left: 230px;
     float: left;
-    background-image: url(img/womenmax.png);
-   
+    
+    
 }
 
 .men {
@@ -165,9 +315,12 @@ body {
     left: 620px;
     float: left;
     margin: 0 0 0 27px;
-    background-image: url(img/menmax.png);
+    
 }
 
+.men-img {
+    width: 100%;
+}
 .kids {
     width: 360px;
     height: 260px;
@@ -175,18 +328,83 @@ body {
     left: 1010px;
     float: left;
     margin: 0 0 0 27px;
-    background-image: url(img/kidsmax.png);
+   
+    
 }
 
+.kids-img {
+    width: 100%;
+}
 .accesories {
     width: 1140px;
     height: 180px;
     margin-top: 30px;
     margin-left: 266px;
-    background-image: url(img/accesoriesmax.png);
+    
+ 
+}
+
+div .sing-less-img:hover svg {
+    fill: blue;
+}
+
+div .sing-more-img:hover svg {
+    fill: blue;
+}
+
+.car-img-svg {
+    width: 44.99px;
+    height: 31.93px;
+}
+
+.car-img {
+    left: 24.25%;
+right: 72.94%;
+top: 32.21%;
+bottom: 22.8%;
+position: absolute;
+fill: #F16D7F;
+}
+
+ div .car-div:hover svg {
+    fill: blue;
+    display: block;
+	
+}
+
+.sale {
+    position: absolute;
+    left: 48.75%;
+    right: 48.75%;
+    top: 103px;
+    bottom: 18.92%;
+    fill: #F16D7F;
+    
+  }
+
+  div .sale-div:hover svg {
+    fill: blue;
+    display: block;
+  }
+
+  .crown {
+    position: absolute;
+    left: 72.88%;
+    right: 24.18%;
+    top: 103px;
+    bottom: 19.07%;
+    fill: #F16D7F;
+  }
+
+div .crown-div:hover svg {
+    fill: blue;
+    display: block;
 }
 
 
+.accesories-img {
+    width: 100%;
+}
 
 .brandfashion {
     position: absolute;
@@ -239,7 +457,7 @@ height: 100%;
     position: absolute;
     left: 44.4%;
     right: 44.23%;
-   border: 1px solid black;
+    top: 152.5%;
     bottom: 60.66%;
     font-family: 'Lato';
     font-style: normal;
@@ -253,7 +471,7 @@ height: 100%;
     position: absolute;
     left: 39.44%;
    
-    top: 164.0%;
+    top: 158.5%;
     bottom: 60.06%;
    
     font-family: 'Lato';
@@ -266,11 +484,11 @@ height: 100%;
     
 }
 
-.description {
+.description-catalog {
 width: 1140px;
 
-    margin-left: 230px;
-    margin-top: 198px;
+    margin-left: 265px;
+    margin-top: 65px;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -278,7 +496,7 @@ width: 1140px;
 
 }
 
-.descriptionmini {
+.descriptionmini-catalog {
 
     width: 360px;
     
@@ -293,10 +511,49 @@ width: 1140px;
 
 }
 
+.description {
+    width: 1140px;
+    
+        margin-left: 265px;
+        margin-top: 198px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+       
+    
+    }
+    
+    .descriptionmini {
+    
+        width: 360px;
+        
+        text-align: left;
+        
+        background: #FFFFFF;
+    
+       
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
 
 .ellerytext {
     width: 100%;
     margin-top: -16.4px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-decoration: none;
+display: block;
+color: #5D5D5D;
+}
+
+.image-link {
+    text-decoration: none;
+    width: 70px;
 }
 
 .ellery22 {
@@ -306,8 +563,22 @@ width: 1140px;
     
 }
 
+.heading-style {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
 .card {
     margin-top: 30px;
+    
 }
 
 .price {
@@ -344,8 +615,38 @@ width: 1140px;
     color: #F26376;
   }
 
+  .products-pages-btn {
+    display: block;
+    width: 100%;
+    max-width: 283.99px;
+    margin: 0 auto;
+    padding: 12.0px;
+    background-color: #fff;
+    border: 2px solid #F26376;
+    box-sizing: border-box;
+    color: #F26376;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    word-break: break-all;
+    margin-top: 48.5px;
+    
+  }
+
+  .wrapper {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+   
+   
+  }
+
   .services {
-      width: 1600px;
+      width: 100%;
       height: 341px;
       background: #222224;
 margin-top: 95.5px;
@@ -353,19 +654,23 @@ position: relative;
   }
 
   .write {
-    width: 1600px;
+    width: 100%;
     height: 448px;
     background-image: url(img/nature.jpg);
-    
+   
 position: relative;
   }
 
   .rights {
-      width: 1600px;
+      width: 100%;
       height: 79px;
+     
       
   }
 
+  .copyright {
+    width: 100%;
+  }
   .car {
     position: absolute;
     left: 24.25%;
@@ -410,16 +715,7 @@ position: relative;
      
   }
 
-  .sale {
-    position: absolute;
-    left: 48.75%;
-    right: 48.75%;
-    top: 103px;
-    bottom: 18.92%;
-    
-    
-    
-  }
+  
 
   .headingsale {
     position: absolute;
@@ -457,14 +753,7 @@ position: relative;
     
   }
 
-  .crown {
-    position: absolute;
-    left: 72.88%;
-    right: 24.18%;
-    top: 103px;
-    bottom: 19.07%;
-    
-  }
+
 
  .headingcrown {
     position: absolute;
