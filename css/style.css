@@ -1,5 +1,3 @@
-
-
 body {
 	margin: 0;
 }
@@ -100,7 +98,7 @@ body {
 .content-center-spisok {
 	max-width: 1140px;
 	width: 100%;
-	margin: 51px auto;
+	margin: 51px 0 0 90px;
 }
 
 .page-header button:hover svg {
@@ -563,6 +561,12 @@ color: #5D5D5D;
     
 }
 
+.futer-copyright {
+    text-decoration: none;
+}
+
+
+
 .heading-style {
     font-family: 'Lato';
 font-style: normal;
@@ -575,6 +579,8 @@ line-height: 16px;
 color: #000000;
 
 }
+
+
 
 .card {
     margin-top: 30px;
@@ -590,6 +596,7 @@ color: #000000;
     display: block;
     width: 100%;
     max-width: 211px;
+    top: 370px;
     margin: 0 auto;
     padding: 14.5px;
     background-color: #fff;
@@ -609,6 +616,12 @@ color: #000000;
     background-color: #F26376;
     color: #fff;
   }
+
+  .make-an-order:hover {
+    background-color: #fff;
+    color: #fff;
+  }
+
   .products-btn:active {
     background-color: #fff;
     border: 2px solid #F26376;
@@ -656,20 +669,34 @@ position: relative;
   .write {
     width: 100%;
     height: 448px;
-    background-image: url(img/nature.jpg);
-   
-position: relative;
+    position: relative;
+    
+  }
+
+  .foto-nature {
+    width: 100%;
+    height: 100%; 
   }
 
   .rights {
       width: 100%;
       height: 79px;
-     
-      
+          position: relative;
   }
 
+  .alignment {
+      padding-left: 140px;
+  }
+
+  
+
+
+
   .copyright {
-    width: 100%;
+    width: 240px;
+    position: absolute;
+    margin-top: -50px;
+    left: 235px;
   }
   .car {
     position: absolute;
@@ -800,13 +827,14 @@ color: #FBFBFB;
     
  }
 
- .futertext {
+ .futertext  {
     position: absolute;
-    left: 14.39%;
+    left: 13.93%;
     right: 63.14%;
-    top: 49.78%;
-    bottom: 28.12%;
+    top: 282.78%;
     
+   
+   
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -816,7 +844,91 @@ color: #FBFBFB;
     
     color: #222224;
     
+ }
+
+ .futertext-catalog {
+    position: absolute;
+    left: 13.93%;
+    right: 63.14%;
+    top: 289.78%;
     
+   
+   
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #222224;
+ }
+
+ .futertext-catalog a {
+    text-decoration:none;
+    display: inline-block;
+    color: #000000; 
+ }
+
+ .futertext-catalog a:after {
+    text-decoration: underline;
+    display: block;
+    content: "";
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #225384; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out;
+ }
+
+ .futertext-index {
+    position: absolute;
+    left: 13.93%;
+    right: 63.14%;
+    top: 373.78%;
+    
+   
+   
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #222224;
+    
+ }
+
+ .futertext-index a {
+    text-decoration:none;
+    display: inline-block;
+    color: #000000; 
+ }
+
+ .futertext-index a:after {
+    text-decoration: underline;
+    display: block;
+    content: "";
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #225384; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out;
+ } 
+
+ .futertext a {
+    text-decoration:none;
+    display: inline-block;
+    color: #000000;
+ }
+
+ .futertext a:after {
+     text-decoration: underline;
+    display: block;
+    content: "";
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #225384; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out;
  }
 
  .futerheader {
@@ -850,3 +962,234 @@ color: #FBFBFB;
 
 
 
+ .women-model {
+    width: 100%;
+    height: 777px;
+  margin-top: -11px;
+  background: #F7F7F7;
+}
+
+.new-womem-model {
+    width: 100%;
+    height: 100%;
+ 
+ 
+}
+
+.new-womem-model-img {
+    width: 597px;
+    height: 724px;
+  margin-left: 514px;
+  margin-top: 10.5px;
+    
+   
+}
+
+.product-description {
+    width: 1141px;
+    height: 601px; 
+    position: relative;  
+    left: 260px;
+    top: -65px;
+    
+   
+}
+
+
+
+.header-product-description {
+    position: absolute;
+    margin-left: 497.03px;
+    margin-top: 84.54px;
+    
+}
+
+.women-collection {
+    color: #EF5B70;
+    text-decoration: none;
+   top: 65px;
+}
+
+.moschino-cheap {
+    color: #000000;
+    text-decoration: none;
+}
+
+.compellingly-actualize {
+    color: #000000;
+    text-decoration: none;
+}
+
+.money {
+    color: #EF5B70;
+    text-decoration: none;
+}
+
+.text-known-for {
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-ellery {
+    color: #000000;
+    text-decoration: none;
+}
+
+.border-element {
+    position: absolute;
+   left: 48.12%;
+    right: 47.94%;
+    margin-top: 113.79px;
+   
+    
+    background: #EF5B70;
+}
+
+.page-product-description {
+    position: absolute;
+left: 40.02%;
+right: 42.17%;
+margin-top: 127px;
+
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+width: 253px;
+height: 22px;
+color: #4D4D4D;
+}
+
+.text-product-description {
+    position: absolute;
+left: 26.0%;
+right: 32.69%;
+top: 177.5px;
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+width: 555px;
+color: #5E5E5E;
+
+
+}
+
+
+.price-product-description {
+    position: absolute;
+left: 47.57%;
+right: 48.93%;
+top: 41.32%;
+bottom: 57.67%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #EF5B70;
+
+
+}
+
+
+.menu-page {
+    position: absolute;
+    top: 370.5px;
+}
+
+.menu-page-catalog {
+    position: absolute;
+    top: 210.5px;
+}
+
+.make-an-order {
+    position: relative;
+    top: 488px;
+}
+.shop {
+position: absolute;
+left: 480px;
+top: 495px;
+
+}
+
+.shop:hover {
+    border-bottom: 1px solid blue;;
+} 
+
+.blok-description {
+    margin-top: 63px;
+    margin-bottom: 128px;
+}
+
+.my-copyright {
+    text-decoration: none;
+    color: white;
+}
+
+.basement-black-stripe {
+    width: 100%;
+}
+
+.fa-facebook-f {
+
+}
+
+.icon-fa-facebook-f {
+    width: 31.45px;
+    height: 32px;
+    background-color:  white;
+}
+
+.icon-fa-instagram {
+    width: 31.45px;
+    height: 32px;
+    background-color: #F16D7F;
+}
+
+.fa-instagram {
+    color: white;
+   
+    
+}
+
+
+
+.icon-fa-twitter {
+    width: 31.45px;
+    height: 32px;
+    background-color:  white;
+}
+
+.icon-fa-pinterest-p {
+    width: 31.45px;
+    height: 32px;
+    background-color:  white
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1130px;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.icon-style {
+    text-decoration: none;
+    color: #000000;
+    
+    padding-left: 9px;
+}
