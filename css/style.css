@@ -45,6 +45,13 @@ body {
 	height: 26px;
 }
 
+.description-cart-specifications {
+    width: 390px;
+    height: 306px;
+    box-shadow: 5px 20px 50px rgb(217, 208, 233);
+    position: relative;
+}
+
 .btn {
 	display: block;
 	background-color: transparent;
@@ -52,11 +59,118 @@ body {
 	padding: 0;
 }
 
+.mango {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+width: 186px;
+height: 60px;
+display: block;
+margin-left: 31px;
+
+}
+
+.cost {
+color: #EF5B70;
+}
+
+.text-known-for-price {
+    display: block;
+    margin-top: 42px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+width: 105px;
+margin-left: 35px;
+}
+
+.the-cross {
+    position: absolute;
+    left: 90.62%;
+right: 46.25%;
+top: 8.85%;
+bottom: 79.12%;
+text-decoration: none;
+}
+
+.the-cross:hover svg {
+	fill: blue;
+}
+
+.form {
+    background-color: #E1E1E1;
+    border: 1px solid #E1E1E1;
+    border-radius: 20px 0 0 20px;
+    width: 256px;
+    height: 49px;
+ 
+}
+
+.form-get-a {
+    background-color: white;
+    border: 1px solid #767676;
+}
+
+.form-subscribe {
+    width: 100px;
+    height: 49px;
+    background-color: #EF5B70;
+    border: 1px solid #EF5B70;
+    border-radius: 0 20px 20px 0;
+}
+
+.subscribe-new {
+    color: white;
+    text-decoration: none;
+}
+
+.enter-your {
+    color: black;
+    text-decoration: none;
+}
+
+.shipping-adress {
+    text-decoration: none;
+    color: #000000;
+}
+
+.form-get {
+    text-decoration: none;
+    color: #222222;
+}
+
+.formname {
+    margin-left: 129px;
+    margin-top: -20px;
+}
+
+.order-form {
+    margin: 0 0 20.5px 0;
+}
+
+.text-known-for-text {
+    display: block;
+    margin-top: 6px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+width: 105px;
+margin-left: 35px;
+}
+
 .menu-btn {
     width: 32px;
     height: 23px;
     margin: 0 33px 0 0;
 }
+
+
 
 .account-btn {
 	width: 29px;
@@ -150,12 +264,249 @@ body {
     position: relative;
 }
 
+.content-cart {
+    width: 100%;
+    height: 148px;
+    top: -15px;
+    background: #F8F3F4;
+    position: relative;
+    box-sizing: border-box;
+margin-bottom: 84px;
+}
+
+.content-cart-link {
+    width: 194px;
+    height: 29px;
+    margin-left: 265px;
+    padding-top: 59px;
+position: absolute;
+text-decoration: none;
+color: #F16D7F;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+
+.proceed-to-checkout {
+    width: 360px;
+    height: 214px;
+    background-color: #F5F3F3;;
+    margin-left: 128px;
+}
+
+.shopping-cart-button {
+    display: flex; 
+    margin-top: 22px;
+}
+
 .button-menu {
     margin-left: 11px;
 right: 80.25%;
 top: 8.65%;
 bottom: 91.04%;
 
+}
+
+.headingellery4-product {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.headingellery4 {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+width: 108px;
+color: #4A4A4A;
+padding-left: 237px;
+
+}
+
+.headingellery4-mango {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+width: 262px;
+color: #4A4A4A;
+
+}
+
+.headingellery4-grand {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+padding-left: 175px;
+color: #222222;
+}
+
+.futertext-cart {
+    position: absolute;
+    left: 13.93%;
+    right: 63.14%;
+    top: 150.78%;
+    width: 359px;
+    text-align: center;
+    height: 99px;
+    
+}
+
+.subscribe {
+    text-align: center;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+
+.for-our {
+    text-align: center;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+margin-top: -30px;
+}
+
+.for-our-newletter {
+    text-decoration: none;
+    color: #000000;
+}
+
+.subscribe-header {
+    text-decoration: none;
+    color: #000000;
+}
+
+.products-btn-proceed-registration {
+    text-decoration: none;
+    color: #fff;
+}
+
+.products-btn-clear {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-clear {
+    display: block;
+    width: 235px;
+    height: 50px;
+    
+    top: 370px;
+    margin: 0 auto;
+    padding: 14.5px;
+    background-color: #fff;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+    color: #F26376;
+    font-style: normal;
+    
+    
+    
+    text-align: center;
+    word-break: break-all;
+    margin-top: 48.5px;
+margin-left: 265px;
+    font-family: 'Lato';
+
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.btn-continue {
+    display: block;
+    width: 225px;
+    height: 50px;
+    
+    top: 370px;
+    margin: 0 auto;
+    padding: 14.5px;
+    background-color: #fff;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+    color: #F26376;
+    font-style: normal;
+    
+    
+    
+    text-align: center;
+    word-break: break-all;
+    margin-top: 48.5px;
+margin-left: -552px;
+    font-family: 'Lato';
+
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.products-btn-proceed {
+    display: block;
+    width: 273px;
+    height: 53px;
+ 
+    top: 370px;
+    margin: 0 auto;
+    padding: 14.5px;
+    background-color: #F26376;
+    border: 2px solid #F26376;
+    box-sizing: border-box;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    word-break: break-all;
+    margin-top: 48.5px;
+}
+
+.grand-total {
+    color: #222222;
+    text-decoration: none;
+}
+
+.strip {
+margin-left: 43px;
+}
+
+.futertext-cart-style {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #222224; 
+}
+
+.form-futer {
+    display: flex;
+}
+
+.form-futer-max {
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 1000px;
 }
 
 .trending-now {
@@ -521,6 +872,7 @@ width: 1140px;
     
     }
     
+
     .descriptionmini {
     
         width: 360px;
@@ -534,6 +886,38 @@ width: 1140px;
         display: flex;
         flex-direction: column;
     
+    }
+
+    .description-cart {
+        width: 1140px;
+    
+        margin-left: 265px;
+        margin-top: 40px;
+        
+        display: flex;
+    }
+
+    .descriptionmini-cart-top {
+        width: 262px;  
+        height: 306px;
+        box-shadow: 5px 20px 50px rgb(217, 208, 233);
+        
+    }
+
+    .descriptionmini-cart-bottom {
+        width: 262px;  
+        height: 306px;
+    box-shadow: 5px 20px 50px rgb(217, 208, 233);
+}
+
+
+    .ellery1-cart {
+        width: 100%;
+        
+    }
+
+    .ellery4-cart {
+        width: 100%;
     }
 
 .ellerytext {
@@ -666,11 +1050,19 @@ margin-top: 95.5px;
 position: relative;
   }
 
-  .write {
+  .write-cart {
     width: 100%;
     height: 448px;
     position: relative;
+    margin-top: 128.5px;
+  }
+
+  .write {
+    width: 100%;
+    height: 448px;
+    background-image: url(img/nature.jpg);
     
+position: relative;
   }
 
   .foto-nature {
@@ -1193,3 +1585,134 @@ top: 495px;
     
     padding-left: 9px;
 }
+
+/* открытие всплывающего меню */
+#menu {
+    display: none;
+  }
+  
+  #menu:checked~.page__header_menu_list {
+    visibility: visible;
+  }
+  
+  .page__header_menu_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .page__header_menu_span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    left: 1165px ;
+    top: 37px;
+    background-color: #E8E8E8;
+    position: relative;
+  }
+  
+  .page__header_menu_span::before,
+  .page__header_menu_span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    min-height: 3px;
+    background-color: #E8E8E8;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* 
+  ==========================================
+  как сделать крестик из кнопки мобильного меню
+  
+  #menu:checked ~ .page__header_menu_button > .page__header_menu_span {
+    background-color: transparent;
+  }
+  
+  #menu:checked ~ .page__header_menu_button > .page__header_menu_span::before,
+  #menu:checked ~ .page__header_menu_button > .page__header_menu_span::after {
+    visibility: hidden;
+    background-color: red;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  #menu:checked ~ .page__header_menu_button > .page__header_menu_span::after {
+    transform: rotate(-45deg);
+  }
+  =================================================
+  */
+  
+  .page__header_menu_button:hover .page__header_menu_span,
+  .page__header_menu_button:hover .page__header_menu_span::before,
+  .page__header_menu_button:hover .page__header_menu_span::after {
+    background-color: #F16D7F;
+  }
+  
+  .page__header_menu_button:active .page__header_menu_span,
+  .page__header_menu_button:active .page__header_menu_span::before,
+  .page__header_menu_button:active .page__header_menu_span::after {
+    background-color: #E8E8E8;
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .page__header_menu_span::before {
+    top: -10px;
+  }
+  
+  .page__header_menu_span::after {
+    bottom: -10px;
+  }
+  
+  .page__header_menu_list {
+    visibility: hidden;
+    width: 100%;
+    max-width: 232px;
+    min-height: 764px;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    box-sizing: border-box;
+    padding: 16px 33px;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    list-style-type: none;
+  
+  }
+  
+  /*закрытие всплывающего меню */
+  .menu__close_button {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  #close_menu {
+    display: none;
+  }
+  
+  #close_menu:checked~.page__header_menu_list {
+    visibility: hidden;
+  }
+  
+  .menu__close_button_svg {
+    fill: #6F6E6E;
+  }
+  
+  .menu__close_button_svg:hover {
+    fill: #F16D7F;
+  }
+  
+  .menu__close_button_svg:active {
+    fill: #6F6E6E;
+    transform: scale(1.1);
+  }
