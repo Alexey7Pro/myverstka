@@ -110,10 +110,30 @@ text-decoration: none;
  
 }
 
+.form2 {
+    background-color: #E1E1E1;
+    border: 1px solid #E1E1E1;
+    border-radius: 20px 0 0 20px;
+    width: 256px;
+    height: 49px;
+ position: relative;
+}
+
 .form-get-a {
     background-color: white;
     border: 1px solid #767676;
 }
+
+.form-subscribe2 {
+    width: 100px;
+    height: 49px;
+    background-color: #EF5B70;
+    border: 1px solid #EF5B70;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+}
+
+
 
 .form-subscribe {
     width: 100px;
@@ -121,6 +141,14 @@ text-decoration: none;
     background-color: #EF5B70;
     border: 1px solid #EF5B70;
     border-radius: 0 20px 20px 0;
+}
+
+.subscribe-new2 {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 123px;
+    right: 20px;
 }
 
 .subscribe-new {
@@ -131,6 +159,15 @@ text-decoration: none;
 .enter-your {
     color: black;
     text-decoration: none;
+    
+}
+
+.enter-your2 {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 123px;
+    right: 170px; 
 }
 
 .shipping-adress {
@@ -296,9 +333,53 @@ line-height: 29px;
     margin-left: 128px;
 }
 
+.proceed-to-checkout-registration {
+    width: 680px;
+    height: 250px; 
+    margin-left: 128px;
+}
+
 .shopping-cart-button {
     display: flex; 
     margin-top: 22px;
+}
+
+.headingellery4-registration {
+    font-family: 'Lato';
+font-style: normal;
+
+
+width: 500px;
+color: #4A4A4A;
+padding-left: 237px; 
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+
+
+.futertext-registration-style {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #222224; 
+    
+}
+
+.futertext-registration {
+    position: absolute;
+    left: 13.93%;
+    right: 63.14%;
+    top: 111.78%;
+    width: 359px;
+    text-align: center;
+    height: 99px;  
 }
 
 .button-menu {
@@ -333,6 +414,57 @@ padding-left: 237px;
 
 }
 
+.headingellery4-registration {
+    width: 700px;
+    height: 29px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+
+    padding-left: 170px; 
+}
+
+.register {
+    position: relative;
+    top: -65px;
+}
+
+.check-mark1 {
+    position: absolute;
+    left: 260px;
+    top: 189px;
+}
+
+.check-mark2 {
+    position: absolute;
+    left: 260px;
+    top: 250px;
+}
+
+.check-mark3 {
+    position: absolute;
+    left: 260px;
+    top: 310px;
+}
+
+.check-mark4 {
+    position: absolute;
+    left: 260px;
+    top: 370px;
+}
+
+.check-mark5 {
+    position: absolute;
+    left: 260px;
+    top: 430px;
+}
+
 .headingellery4-mango {
     font-family: 'Lato';
 font-style: normal;
@@ -352,6 +484,20 @@ font-size: 16px;
 line-height: 19px;
 padding-left: 175px;
 color: #222222;
+}
+
+.headingellery4-get {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    width: 652px;
+    height: 58px;
+    padding-left: 171px;
+    color: #000000;
+
 }
 
 .futertext-cart {
@@ -397,6 +543,14 @@ margin-top: -30px;
 .products-btn-proceed-registration {
     text-decoration: none;
     color: #fff;
+}
+
+.btn-registration {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 685px;
+    left: 310px;
 }
 
 .products-btn-clear {
@@ -477,6 +631,33 @@ line-height: 17px;
     text-align: center;
     word-break: break-all;
     margin-top: 48.5px;
+}
+
+.products-btn-registration{
+    display: block;
+    width: 167px;
+    height: 50px;
+ position: relative;
+    
+    margin-left: 130px;
+    padding: 14.5px;
+    background-color: #F26376;
+    border: 2px solid #F26376;
+    box-sizing: border-box;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    word-break: break-all;
+    margin-top: 48.5px;
+}
+
+.arrown {
+    position: absolute;
+left: 410px;
+top: 689px;
 }
 
 .grand-total {
@@ -1396,6 +1577,11 @@ color: #FBFBFB;
     
 }
 
+.fields-for-recording {
+    display: flex;
+    margin-left: 140px;
+}
+
 .women-collection {
     color: #EF5B70;
     text-decoration: none;
@@ -1407,9 +1593,19 @@ color: #FBFBFB;
     text-decoration: none;
 }
 
+.text-please {
+    width: 359px;
+    height: 32px;
+    margin-left: 130px;
+}
+
 .compellingly-actualize {
     color: #000000;
     text-decoration: none;
+}
+
+.button-radio {
+    margin-left: 130px;
 }
 
 .money {
