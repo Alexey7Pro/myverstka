@@ -98,13 +98,17 @@ text-decoration: none;
 	fill: blue;
 }
 
+.right-shift {
+    margin-left: 135px;
+}
+
 .form {
     background-color: #E1E1E1;
     border: 1px solid #E1E1E1;
     border-radius: 20px 0 0 20px;
     width: 256px;
     height: 49px;
- 
+ position: relative;
 }
 
 .form2 {
@@ -138,6 +142,7 @@ text-decoration: none;
     background-color: #EF5B70;
     border: 1px solid #EF5B70;
     border-radius: 0 20px 20px 0;
+    position: relative;
 }
 
 .subscribe-new2 {
@@ -148,15 +153,81 @@ text-decoration: none;
     right: 20px;
 }
 
+.subscribe-new-product {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 270px;
+    top: 120px;
+}
+
+.subscribe-new-catalog {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 270px;
+    top: 120px;
+}
+
+.subscribe-new-index {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 270px;
+    top: 120px;
+}
+
+.subscribe-new-cart {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 270px;
+    top: 120px;
+}
+
 .subscribe-new {
     color: white;
     text-decoration: none;
+   
+
 }
 
 .enter-your {
     color: black;
     text-decoration: none;
     
+}
+
+.enter-your-product {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 70px;
+    top: 120px;
+}
+
+.enter-your-catalog {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 70px;
+    top: 120px;
+}
+
+.enter-your-index {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 70px;
+    top: 120px;
+}
+
+.enter-your-cart {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 70px;
+    top: 120px;
 }
 
 .enter-your2 {
@@ -430,7 +501,8 @@ color: #000000;
 .register {
     position: relative;
     top: -65px;
-    left: -300px;
+    left: -100px;
+
 }
 
 .check-mark1 {
@@ -548,7 +620,7 @@ margin-top: -30px;
     color: #fff;
     position: absolute;
     top: 685px;
-    left: 160px;
+    left: 310px;
 }
 
 .products-btn-clear {
@@ -654,7 +726,7 @@ line-height: 17px;
 
 .arrown {
     position: absolute;
-left: 250px;
+left: 400px;
 top: 689px;
 }
 
@@ -1578,6 +1650,7 @@ color: #FBFBFB;
 .fields-for-recording {
     display: flex;
     margin-left: 140px;
+  
 }
 
 .women-collection {
@@ -1600,6 +1673,15 @@ color: #FBFBFB;
 .compellingly-actualize {
     color: #000000;
     text-decoration: none;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #5E5E5E;
+
 }
 
 .button-radio {
@@ -1912,7 +1994,7 @@ top: 495px;
   }
 
   .container {
-	width: 1680px;
+	width: 1663px;
 	margin: 0 auto;
 }
 
@@ -1921,7 +2003,7 @@ top: 495px;
 
 @media (max-width: 1140px) {
     .container {
-        width: 1680px;
+        width: 1663px;
        
    
 }
@@ -2038,7 +2120,7 @@ top: 495px;
 
 @media (max-width: 1024px) {
     .container {
-        width: 1680px;
+        width: 1663px;
     }
     .futertext-cart {
         position: absolute;
@@ -2153,7 +2235,7 @@ top: 495px;
 
 @media (max-width: 768px) {
     .container {
-        width: 1680px;
+        width: 1663px;
     }
     .futertext-cart {
         position: absolute;
@@ -2267,7 +2349,7 @@ top: 495px;
 
 @media (max-width: 1024px) {
     .container {
-        width: 1680px;
+        width: 1663px;
     }
     .futertext-cart {
         position: absolute;
@@ -2380,7 +2462,7 @@ top: 495px;
 
 @media (max-width: 375px) {
     .container {
-        width: 1680px;
+        width: 1663px;
     }
     .futertext-cart {
         position: absolute;
@@ -2491,9 +2573,9 @@ top: 495px;
     }
 }
 
-@media (max-width: 1640px) {
+@media (max-width: 1630px) {
     .container {
-        width: 1680px;
+        width: 1663px;
        
    
 }
